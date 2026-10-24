@@ -50,14 +50,14 @@
 
     /* Firebase — نفس مشروع الموقع الرئيسي (abdallahsst).
        انسخ القيم من Firebase Console → Project settings → Your apps */
-    firebase: {
-      apiKey: "PASTE_FIREBASE_API_KEY",
-      authDomain: "abdallahsst.firebaseapp.com",
-      projectId: "abdallahsst",
-      storageBucket: "abdallahsst.appspot.com",
-      messagingSenderId: "PASTE_SENDER_ID",
-      appId: "PASTE_APP_ID"
-    },
+  firebase: {
+    projectId: "abdallahsst",
+    apiKey: "AIzaSyDg-oSbA_UdlzMS8HZGE0pHtr_zWg5rrXY",
+    appId: "1:1011946194938:web:6c71030a6da4074b68c643",
+    measurementId: "G-P8VBBK21WK",
+    authDomain: "abdallahsst.firebaseapp.com",
+    collection: "service_requests"
+  },
 
     /* التعليقات: Email/Password عبر Firebase Auth + Firestore
        تُعطّل تلقائيًا وبصدق إذا لم تُلصق مفاتيح Firebase */
